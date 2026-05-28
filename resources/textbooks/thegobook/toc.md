@@ -1,0 +1,90 @@
+# Introducing Go — Table of Contents
+
+- Introduction
+- 1. Getting Started
+  - Machine Setup
+  - Text Editors
+  - The Terminal
+  - Environment
+  - Go
+  - Your First Program
+  - How to Read a Go Program
+  - Exercises
+- 2. Types
+  - Numbers
+  - Integers
+  - Floating-Point Numbers
+  - Example
+  - Strings
+  - Booleans
+  - Exercises
+- 3. Variables
+  - How to Name a Variable
+  - Scope
+  - Constants
+  - Defining Multiple Variables
+  - An Example Program
+  - Exercises
+- 4. Control Structures
+  - The for Statement
+  - The if Statement
+  - The switch Statement
+  - Exercises
+- 5. Arrays, Slices, and Maps
+  - Arrays
+  - Slices
+  - append
+  - copy
+  - Maps
+  - Exercises
+- 6. Functions
+  - Your Second Function
+  - Variadic Functions
+  - Closure
+  - Recursion
+  - defer, panic, and recover
+  - panic and recover
+  - Pointers
+  - The * and & operators
+  - new
+  - Exercises
+- 7. Structs and Interfaces
+  - Structs
+  - Initialization
+  - Fields
+  - Methods
+  - Embedded Types
+  - Interfaces
+  - Exercises
+- 8. Packages
+  - The Core Packages
+  - Strings
+  - Input/Output
+  - Files and Folders
+  - Errors
+  - Containers and Sort
+  - Hashes and Cryptography
+  - Servers
+  - TCP
+  - HTTP
+  - RPC
+  - Parsing Command-Line Arguments
+  - Creating Packages
+  - Documentation
+  - Exercises
+- 9. Testing
+  - Exercises
+- 10. Concurrency
+  - Goroutines
+  - Channels
+  - Channel Direction
+  - Select
+  - Buffered Channels
+  - An Example
+  - Exercises
+- 11. Next Steps
+  - Study the Masters
+  - Make Something
+  - Team Up
+- Appendix A. Answers
+- Index

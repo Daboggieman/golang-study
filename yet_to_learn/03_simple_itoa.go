@@ -1,4 +1,4 @@
-package yettolearn
+package main
 
 // EXERCISE 3: Simple Itoa
 //
@@ -16,6 +16,15 @@ package yettolearn
 // 7. Divide n by 10 to chop off the last digit: n = n / 10
 
 func SimpleItoa(n int) string {
-	// TODO: implement
-	return ""
+	if n == 0 {
+		return "0"
+	}
+	result := ""
+	for n > 0 {
+		digit := n % 10
+		char := string(rune(digit + '0'))
+		result = char + result
+		n = n / 10
+	}
+	return result
 }
