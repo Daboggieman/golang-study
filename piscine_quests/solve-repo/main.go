@@ -1,6 +1,9 @@
 package main
 
-import "solve-repo/solve"
+import (
+	"solve-repo/solve"
+	// "fmt"
+)
 
 func main() {
 	// solve.PrintValues()
@@ -14,8 +17,14 @@ func main() {
 	// solve.AskInput()
 	// solve.CheckNumber(5)
 	// solve.GradeSys(71)
-	// solve.Agechecker(-8)
+	// solve.Agechecker(20)
 	// solve.AskInput()
-	solve.SimpleCalculator()
+	// solve.SimpleCalculator()
 	// solve.BmiCalculator()
+	// solve.Loops()
+	// fmt.Println(solve.FactLoop(5))
+	// fmt.Println(solve.Fibonacci(5))
+	// solve.CheckPrime(18)
+	// fmt.Println(solve.RecurFactorial(5))
+	solve.PracArr(63)
 }

@@ -5,12 +5,12 @@
 - Learn loop control
 
 ## Tasks
-1. Print numbers 1–100.
-2. Print even numbers.
-3. Print odd numbers.
-4. Create a multiplication table generator.
-5. Find factorial of a number.
-6. Generate Fibonacci numbers.
+1. Print numbers 1–100. [x]
+2. Print even numbers. [x]
+3. Print odd numbers. [x]
+4. Create a multiplication table generator. [...]
+5. Find factorial of a number. [x]
+6. Generate Fibonacci numbers. [...]
 
 ## Bonus Challenges
 - Reverse a number

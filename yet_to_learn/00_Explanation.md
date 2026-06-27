@@ -1,8 +1,4 @@
-# The "Yet to Learn" Concepts: Simple Explanations
-
-I've created this folder specifically to demystify these core Piscine concepts. 
-
-## 1. What is Atoi and Itoa?
+s## 1. What is Atoi and Itoa?
 These are historical terms that made their way into Go and Piscines.
 - **A** stands for ASCII (which basically means Text / String).
 - **I** stands for Integer (a Math Number).
@@ -40,4 +36,3 @@ In programming, there are **two different types** of ways to calculate a factori
 2. **Recursive (Function calling itself):** You calculate the factorial by having the function call *itself* with a smaller number until it hits 1. (e.g., `Factorial(5)` returns `5 * Factorial(4)`). It loops without using a `for` keyword!
 
 ---
-**I have created 5 simple, bite-sized exercises in this folder with hints to help you master these exact concepts! Open them up and read the instructions.**

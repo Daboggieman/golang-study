@@ -1,7 +1,9 @@
 package main
 
-import "github.com/01-edu/z01"
-
+import (
+	"github.com/01-edu/z01"
+	"yet_to_learn"
+)
 func main () {
-	z01.PrintRune('a')
+	yet_to_learn.IterativeFactorial(5)
 }

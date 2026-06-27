@@ -1,5 +1,7 @@
 package solve
 
+import "fmt"
+
 func FindLeapYear() {
 	var InsYear int
 	var CurrentYear int
