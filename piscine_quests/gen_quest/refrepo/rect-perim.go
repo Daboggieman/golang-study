@@ -3,17 +3,10 @@ package refrepo
 import "fmt"
 
 func RectPerimeter(a, b int) int{
-	warn := " - Error: can't have a negative perimeter value"
-	if a < 0 {
-		fmt.Print("width: -1",warn, "\n")
-	} else {
-		fmt.Print("width: ", a, "\n")
+	warn := " - Error: can't have a negative/null perimeter value"
+	if a <= 0 || b <= 0 {
+		return warn
 	}
-	
-	if b < 0 {
-		fmt.Print("width: -1", warn, "\n")
-	} else {
-		fmt.Print("width: ", b, "\n")
-	}
-	return a
+	result := (a + b) * 2
+	return result
 }

@@ -13,5 +13,19 @@ package yet_to_learn
 
 func Gcd(a, b uint) uint {
 	// TODO: implement
-	return 0
+	var gcd int
+	if b == 0 {
+		return a
+	}
+	if a == 0 {
+		return b
+	}
+	// if b != 0 {
+	// 	gcd := b(a%b)
+	// }
+	if b != 0 {
+		gcd := a%b
+	}
+	return gcd
+
 }

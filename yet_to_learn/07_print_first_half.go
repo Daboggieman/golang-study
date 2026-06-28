@@ -13,8 +13,19 @@ package yet_to_learn
 //    (Note: If the piscine requires you to round up for odd lengths, you can use: 
 //    `half := (len(s) + 1) / 2`).
 // 3. Use Go's slicing feature to return the first half: `return s[:half]`.
+import "os"
 
 func PrintFirstHalf(s string) string {
 	// TODO: implement
-	return ""
+	//this nigga caused me problems during my piscine checkpoint, very messed up something
+	if len(s) == 0 {
+		fmt.Println("the string is empty, please insert valid sstring")
+		os.Exit
+	}
+	halfstr := len(s) / 2
+	if len(s)%2 != 0 {
+		halfstr = (len(s) + 1) / 2
+		return halfstr
+	}
+	return s[:halfstr]
 }

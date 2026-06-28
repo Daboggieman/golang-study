@@ -2,13 +2,14 @@ package refrepo
 
 import "fmt"
 
-func CheckOdd() {
+func CheckOddEven(a int) {
 	// Check if a number is even or odd
-	a := 7
-
-	if a/2 == 0 {
-		fmt.Println("Even")
+	if a <= 0 {
+		return "invalid value to check, please insert a valid number to check odd or even"
+	}
+	if a%2 == 0 {
+		fmt.Println("The Number is Even")
 	} else {
-		fmt.Println("Odd")
+		fmt.Println("The Number is Odd")
 	}
 }

@@ -11,8 +11,8 @@ package refrepo
 
 import "fmt"
 
-func Strlength() {
+func Strlength( text string) int {
 	// Find the length of the string and print it
-	text := "this is the string to count its characters"
+	// text := "this is the string to count its characters"
 	fmt.Println(len(text))
 }

@@ -4,8 +4,7 @@ import "fmt"
 
 func LoopToten() {
 	// Use a for loop to print numbers from 1 to 10
-	a := 0
-	for a = 0; a <= 10; a++ {
+	for a := 0; a <= 10; a++ {
 		fmt.Print(a, " ")
 	}
 	fmt.Println('\n')
