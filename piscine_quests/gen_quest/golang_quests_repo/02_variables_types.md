@@ -4,7 +4,6 @@
 - Learn variables [x]
 - Learn primitive data types [x]
 - Understand type inference [x]
-
 ## Tasks
 1. Create variables for:
 - [x] name
@@ -16,7 +15,7 @@
 
 3. [x] Swap two numbers without using a third variable.
 
-4. [.] Create a temperature converter:
+4. [x] Create a temperature converter:
 - [x] Celsius to Fahrenheit
 - [x]Fahrenheit to Celsius
 - [x] Celcius to Kelvin
